@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LaTeX</title>
+</head>
+<body>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$']]},
+        messageStyle: "none"
+    });
+</script>
+<noscript>well well, that is funny.</noscript>
+    <h1>
+        LaTeX特殊符号汇总（持续更新）
+    </h1>
+    <h6>小小提示：点击即可页面跳转，子标题点击可以回到目录</h6>
+    <h3><a name="0">目录</a> </h3>
+    <ul>
+        <li><a href="#1">希腊字母</a></li>
+        <li><a href="#2">集合运算字符</a> </li>
+        <li><a href="#3">方向箭头</a> </li>
+        <li><a href="#4">语言字符</a> </li>
+        <li><a href="#5">包含多变量字符</a> </li>
+        <li><a href="#6">比较运算符</a> </li>
+        <li><a href="#7">连接句群字符</a> </li>
+        <li><a href="#8">基本运算符</a> </li>
+        <li><a href="#9">特殊字符</a> </li>
+    </ul>
+    <ul>
+        <li>
+            <h4><a name="1"><a href="#0">希腊字母</a></a> </h4>
+            <h6>小写字母</h6>
+            <table border="1">
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <tr>
+                    <th>显示</th> <th>命令</th>     <th>显示</th> <th>命令</th>      <th>显示</th> <th>命令</th>         <th>显示</th> <td>命令</td>
+                </tr>
+                <tr>
+                    <td>$\alpha$</td> <td>\alpha</td>     <td>$\beta$</td> <td>\beta</td>      <td>$\gamma$</td> <td>\gamma</td>         <td>$\delta$</td> <td>\delta</td>
+                </tr>
+                <tr>
+                    <td>$\epsilon$</td> <td>\epsilon</td>     <td>$\zeta$</td> <td>\zeta</td>      <td>$\eta$</td> <td>\eta</td>         <td>$\theta$</td> <td>\theta</td>
+                </tr>
+                <tr>
+                    <td>$\iota$</td> <td>\iota</td>     <td>$\kappa$</td> <td>\kappa</td>      <td>$\lambda$</td> <td>\lambda</td>         <td>$\mu$</td> <td>\mu</td>
+                </tr>
+                <tr>
+                    <td>$\nu$</td> <td>\nu</td>     <td>$\xi$</td> <td>\xi</td>      <td>$o$</td> <td>o</td>         <td>$\pi$</td> <td>\pi</td>
+                </tr>
+                <tr>
+                    <td>$\rho$</td> <td>\rho</td>     <td>$\sigma$</td> <td>\sigma</td>      <td>$\tau$</td> <td>\tau</td>         <td>$\upsilon$</td> <td>\upsilon</td>
+                </tr>
+                <tr>
+                    <td>$\phi$</td> <td>\phi</td>     <td>$\chi$</td> <td>\chi</td>      <td>$\psi$</td> <td>\psi</td>         <td>$\omega$</td> <td>\omega</td>
+                </tr>
+            </table>
+            <h6>大写字母</h6>
+            <table border="1">
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <tr>
+                <th>显示</th> <th>命令</th>     <th>显示</th> <th>命令</th>      <th>显示</th> <th>命令</th>         <th>显示</th> <td>命令</td>
+                </tr>
+                <tr>
+                    <td>$A$</td> <td>A</td>     <td>$B$</td> <td>B</td>      <td>$\Gamma$</td> <td>\Gamma</td>         <td>$\Delta$</td> <td>\Delta</td>
+                </tr>
+                <tr>
+                    <td>$E$</td> <td>\E</td>     <td>$Z$</td> <td>Z</td>      <td>$H$</td> <td>H</td>         <td>$\Theta$</td> <td>\Theta</td>
+                </tr>
+                <tr>
+                    <td>$I$</td> <td>I</td>     <td>$K$</td> <td>K</td>      <td>$\Lambda$</td> <td>\Lambda</td>         <td>$M$</td> <td>M</td>
+                </tr>
+                <tr>
+                    <td>$N$</td> <td>\N</td>     <td>$\Xi$</td> <td>\Xi</td>      <td>$O$</td> <td>O</td>         <td>$\Pi$</td> <td>\Pi</td>
+                </tr>
+                <tr>
+                    <td>$P$</td> <td>P</td>     <td>$\Sigma$</td> <td>\Sigma</td>      <td>$T$</td> <td>T</td>         <td>$Y$</td> <td>Y</td>
+                </tr>
+                <tr>
+                    <td>$\Phi$</td> <td>\Phi</td>     <td>$X$</td> <td>X</td>      <td>$\Psi$</td> <td>\Psi</td>         <td>$\Omega$</td> <td>\Omega</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h4><a name="2"><a href="#0">集合运算符</a></a> </h4>
+        <table border="1">
+            <colgroup width="64px" align="center"></colgroup>
+            <colgroup width="64px" align="center"></colgroup>
+            <tr>
+                <th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th>
+            </tr>
+            <tr>
+                <td>$\cap$</td> <td>\cap</td><td>$\cup$</td> <td>\cup</td><td>$\owns$</td> <td>\owns</td><td>$\in$</td> <td>\in</td>
+            </tr>
+            <tr>
+                <td>$\Cup$</td> <td>\Cup</td><td>$\Cap$</td><td>\Cap</td><td>$\sqcup$</td><td>\sqcup</td><td>$\sqcap$</td><td>\sqcap</td>
+            </tr>
+            <tr>
+                <td>$\wedge$</td> <td>\wedge</td><td>$\vee$</td> <td>\vee</td><td>$\barwedge$</td> <td>\barwedge</td><td>$\veebar$</td> <td>\veebar</td>
+            </tr>
+            <tr>
+                <td>$\bigsqcup$</td> <td>\bigsqcup</td><td>$\uplus$</td> <td>\uplus</td><td>$\cdot$</td> <td>\cdot</td><td>$\bigodot$</td> <td>\bigodot</td>
+            </tr>
+            <tr>
+                <td>$\ominus$</td> <td>\ominus</td><td>$\oplus$</td> <td>\oplus</td><td>$\oslash$</td> <td>\oslash</td><td>$\otimes$</td> <td>\otimes</td>
+            </tr>
+            <tr>
+                <td>$\ni$</td> <td>\ni</td><td>$\notin$</td> <td>\notin</td><td>$\nsupseteqq$</td><td>\nsupseteqq</td><td>$\nsubseteq$</td><td>\nsubseteq</td>
+            </tr>
+            <tr>
+                <td>$\sqsubset$</td><td>\sqsubset</td><td>$\sqsupset$</td><td>\sqsupset</td><td>$\sqsupseteq$</td><td>\sqsupseteq</td><td>$\sqsubseteq$</td><td>\sqsubseteq</td>
+            </tr>
+            <tr>
+                <td>$\subset$</td><td>\subset</td><td>$\supset$</td><td>\supset</td><td>$\subseteq$</td><td>\subseteq</td><td>$\supseteq$</td><td>\supseteq</td>
+            </tr>
+            <tr>
+                <td>$\nsubseteq$</td><td>\nsubseteq</td><td>$\nsupseteq$</td><td>\nsupseteq</td><td>$\subseteq$</td><td>\subseteq</td><td>$\supseteq$</td><td>\supseteq</td>
+            </tr>
+            <tr>
+                <td>$\circleddash$</td> <td>\circleddash</td><td>$\odot$</td> <td>\odot</td><td>$\circledcirc$</td> <td>\circledcirc</td><td>$\circledast$</td> <td>\circledast</td>
+            </tr>
+            <tr>
+                <td>$\bigotimes$</td> <td>\bigotimes</td><td>$\bigoplus$</td> <td>\bigoplus</td><td>$\$</td> <td>\</td><td>$\$</td> <td>\</td>
+            </tr>
+        </table>
+    </li>
+        <li>
+            <h4>
+                <a name="3"><a href="#0">方向箭头</a> </a>
+            </h4>
+            <table border="1">
+                <colgroup align="center" width="96px"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup align="center" width="96px"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <tr>
+                    <th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th>
+                </tr>
+                <tr>
+                    <td>$\rightarrow$</td> <td>\rightarrow</td><td>$\leftarrow$</td> <td>\leftarrow</td><td>$\uparrow$</td> <td>\uparrow</td><td>$\downarrow$</td> <td>\downarrow</td>
+                </tr>
+                <tr>
+                    <td>$\Rightarrow$</td> <td>\Rightarrow</td><td>$\Leftarrow$</td> <td>\Leftarrow</td><td>$\Uparrow$</td> <td>\Uparrow</td><td>$\Downarrow$</td> <td>\Downarrow</td>
+                </tr>
+                <tr>
+                    <td>$\longrightarrow$</td> <td>\longrightarrow</td><td>$\longleftarrow$</td> <td>\longleftarrow</td><td>$\leftrightarrow$</td> <td>\leftrightarrow</td><td>$\Leftrightarrow$</td> <td>\Leftrightarrow</td>
+                </tr>
+                <tr>
+                    <td>$\Longrightarrow$</td> <td>\Longrightarrow</td><td>$\Longleftarrow$</td> <td>\Longleftarrow</td><td>$\hookleftarrow$</td> <td>\Uparrow</td><td>$\hookrightarrow$</td> <td>\Downarrow</td>
+                </tr>
+                <tr>
+                    <td>$\mapsto$</td><td>\mapsto</td> <td>$\longmapsto$</td><td>\longmapsto</td> <td>$\leftharpoonup$</td><td>\leftharpoonup</td> <td>$\rightharpoonup$</td><td>\rightharpoonup</td>
+                </tr>
+                <tr>
+                    <td>$\leftharpoondown$</td><td>\leftharpoondown</td> <td>$\rightharpoondown$</td><td>\rightharpoondown</td> <td>$\rightleftharpoons$</td><td>\rightleftharpoons</td> <td>$\leadsto$</td><td>\leadsto</td>
+                </tr>
+                <tr>
+                    <td>$\nearrow$</td><td>\nearrow</td> <td>$\searrow$</td><td>\searrow</td> <td>$\swarrow$</td><td>\swarrow</td> <td>$\nwarrow$</td><td>\nwarrow</td>
+                </tr>
+                <tr>
+                    <td>$\nleftarrow$</td><td>\nleftarrow</td> <td>$\nrightarrow$</td><td>\nrightarrow</td> <td>$\nLeftarrow$</td><td>\nLeftarrow</td> <td>$\nRightarrow$</td><td>\nRightarrow</td>
+                </tr>
+                <tr>
+                    <td>$\nleftrightarrow$</td><td>\nleftrightarrow</td> <td>$\nLeftrightarrow$</td><td>\nLeftrightarrow</td> <td>$\dashrightarrow$</td><td>\dashrightarrow</td> <td>$\dashleftarrow$</td><td>\dashleftarrow</td>
+                </tr>
+                <tr>
+                    <td>$\leftleftarrows$</td><td>\leftleftarrows</td> <td>$\leftrightarrows$</td><td>\leftrightarrows</td> <td>$\Lleftarrow$</td><td>\Lleftarrow</td> <td>$\twoheadleftarrow$</td><td>\twoheadleftarrow</td>
+                </tr>
+                <tr>
+                    <td>$\leftarrowtail$</td><td>\leftarrowtail</td> <td>$\looparrowleft$</td><td>\looparrowleft</td> <td>$\leftrightharpoons$</td><td>\leftrightharpoons</td> <td>$\curvearrowleft$</td><td>\curvearrowleft</td>
+                </tr>
+                <tr>
+                    <td>$\circlearrowleft$</td><td>\circlearrowleft</td> <td>$\Lsh$</td><td>\Lsh</td> <td>$\upuparrows$</td><td>\upuparrows</td> <td>$\upharpoonleft$</td><td>\upharpoonleft</td>
+                </tr>
+                <tr>
+                    <td>$\downharpoonleft$</td><td>\downharpoonleft</td> <td>$\multimap$</td><td>\multimap</td> <td>$\leftrightsquigarrow$</td><td>\leftrightsquigarrow</td> <td>$\rightrightarrows$</td><td>\rightrightarrows</td>
+                </tr>
+                <tr>
+                    <td>$\rightleftarrows$</td><td>\rightleftarrows</td> <td>$\rightrightarrows$</td><td>\rightrightarrows</td> <td>$\rightleftarrows$</td><td>\rightleftarrows</td> <td>$\twoheadrightarrow$</td><td>\twoheadrightarrow</td>
+                </tr>
+                <tr>
+                    <td>$\rightarrowtail$</td><td>\rightarrowtail</td> <td>$\looparrowright$</td><td>\looparrowright</td> <td>$\rightleftharpoons$</td><td>\rightleftharpoons</td> <td>$\curvearrowright$</td><td>\curvearrowright</td>
+                </tr>
+                <tr>
+                    <td>$\upharpoonright$</td><td>\upharpoonright</td> <td>$\downdownarrows$</td><td>\downdownarrows</td> <td>$\Rsh$</td><td>\Rsh</td> <td>$\circlearrowright$</td><td>\circlearrowright</td>
+                </tr>
+                <tr>
+                    <td>$\downharpoonright$</td><td>\downharpoonright</td> <td>$\rightsquigarrow$</td><td>\rightsquigarrow</td> <td>$\xleftarrow[t=0]{x>3}$</td><td>\xleftarrow[t=0]{x>3}</td> <td>$\xrightarrow[t=0]{x>3}$</td><td>\xrightarrow[t=0]{x>3}</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h4>
+                <a name="4"><a href="#0">语言字符</a></a>
+            </h4>
+            <table border="1">
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <colgroup width="96px" align="center"></colgroup>
+                <tr>
+                    <th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C`e.png" /> </td> <td>\`e</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C'e.png" /></td> <td>\'e</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C%22e.png" /></td> <td>\"e</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C~e.png" /></td> <td>\~e</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C.e.png" /></td> <td>\.e</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C=e.png" /></td> <td>\=e</td>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cd{e}.png" /></td> <td>\d{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5CH%7Be%7D.png" /></td> <td>\H{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cr%7Be%7D.png" /></td> <td>\r{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cu%7Be%7D.png" /></td> <td>\u{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cc%7Be%7D.png" /></td> <td>\c{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C^e.png" /> </td> <td>\^e</td>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cv%7Be%7D.png" /> </td> <td>\v{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Ck%7Be%7D.png" /></td> <td>\k{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cae.png" /></td> <td>\ae</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Coe.png" /></td> <td>\oe</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Caa.png" /></td> <td>\aa</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5C~o.png" /></td> <td>\~o</td>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/ff.png" /> </td> <td>ff</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/fl.png" /></td> <td>fl</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/fi.png" /></td> <td>fi</td>
+                    <td></td><td></td>
+                    <td></td><td></td>
+                    <td></td><td></td>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cacute%7Be%7D.png" /></td> <td>\acute{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cbar%7Be%7D.png" /></td> <td>\bar{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cbreve%7Be%7D.png" /></td> <td>\breve{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Ccheck%7Be%7D.png" /></td> <td>\check{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cddot%7Be%7D.png" /></td> <td>\ddot{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cdot%7Be%7D.png" /></td> <td>\dot{e}</td>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cgrave%7Be%7D.png" /></td> <td>\grave{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Chat%7Be%7D.png" /></td> <td>\hat{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cmathring%7Be%7D.png" /></td> <td>\mathring{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cwidetilde%7Be%7D.png" /></td> <td>\tilde{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cvue%7Be%7D.png"/></td> <td>\vec{e}</td>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cwidehat%7Be%7D.png" /></td> <td>\widehat{e}</td>
+                </tr>
+                <tr>
+                    <td><img src="https://gitee.com/ding_ling_hui/dinglinghui_image/raw/master/Latex/%5Cwidetilde%7Be%7D.png" /></td> <td>\widemathtilde{e}</td>
+                    <td></td><td></td>
+                    <td></td><td></td>
+                    <td></td><td></td>
+                    <td></td><td></td>
+                    <td></td><td></td>
+                </tr>
+            </table>
+        </li>
+        <li>
+        <h4>
+            <a name="5"><a href="#0">包含多变量字符</a> </a>
+        </h4>
+        <dl>
+            <dt>$\int_0^{\frac\pi2}$</dt>
+            <dd>\int_0^{\frac\pi2}</dd>
+        </dl>
+        <dl>
+            <dt>$\prod_{3}^{4}$</dt>
+            <dd>\prod_{3}^{4}</dd>
+        </dl>
+        <dl>
+            <dt>$\sum_{n =0}^{\inf}$</dt>
+            <dd>\sum_{n =0}^{\inf}</dd>
+        </dl>
+        <dl>
+            <dt>$_{3}^{4}\textrm{O}$</dt>
+            <dd>_{3}^{4}\textrm{O}</dd>
+        </dl>
+        <dl>
+            <dt>$\bigcap_x^e$</dt>
+            <dd>\bigcap_x^e</dd>
+        </dl>
+            <dl>
+                <dt>$\bigcup_x^e$</dt>
+                <dd>\bigcup_x^e</dd>
+            </dl>
+            <dl>
+                <dt>$\oint_x^e$</dt>
+                <dd>\oint_x^e</dd>
+            </dl>
+            <dl>
+                <dt>$\iiint_x^e$</dt>
+                <dd>\iiint_x^e</dd>
+            </dl>
+            <dl>
+                <dt>$\lim_{x \to 0}$</dt>
+                <dd>\lim_{x \to 0}</dd>
+            </dl>
+            <dl>
+                <dt>$\coprod_{3}^{4}$</dt>
+                <dd>\coprod_{3}^{4}</dd>
+            </dl>
+    </li>
+        <li>
+            <h4>
+                <a name="6"><a href="#0">比较运算符</a></a>
+            </h4>
+            <table border="1">
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <tr>
+                    <th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th><th>显示</th> <th>命令</th>
+                </tr>
+                <tr>
+                    <td>$\leq$</td> <td>\leq</td><td>$\geq$</td> <td>\geq</td><td>$\doteq$</td> <td>\doteq</td><td>$\leqslant$</td> <td>\leqslant</td><td>$\geqslant$</td> <td>\geqslant</td><td>$\equiv$</td> <td>\equiv</td>
+                </tr>
+                <tr>
+                    <td>$\not\equiv$</td> <td>\not\equiv</td><td>$\ngeqslant$</td> <td>\ngeqslant</td><td>$\nleqslant$</td> <td>\nleqslant</td><td>$\neq$</td> <td>\neq</td><td>$\ngtr$</td> <td>\ngtr</td><td>$\nless$</td> <td>\nless</td>
+                </tr>
+                <tr>
+                    <td>$\gg$</td> <td>\ll</td><td>$\sim$</td> <td>\sim</td><td>$\succeq$</td> <td>\succeq</td><td>$\preceq$</td> <td>\preceq</td><td>$\succ$</td> <td>\succ</td><td>$\prec$</td> <td>\prec</td>
+                </tr>
+                <tr>
+                    <td>$\frown$</td> <td>\frown</td><td>$\smile$</td> <td>\smile</td><td>$\simeq$</td> <td>\simeq</td><td>$\dashv$</td> <td>\dashv</td><td>$\vdash$</td> <td>\vdash</td><td>$\approx$</td> <td>\approx</td>
+                </tr>
+                <tr>
+                    <td>$\parallel$</td> <td>\parallel</td><td>$\mid$</td> <td>\mid</td><td>$\asymp$</td> <td>\asymp</td><td>$\perp$</td> <td>\perp</td><td>$\models$</td> <td>\models</td><td>$\cong$</td> <td>\cong</td>
+                </tr>
+                <tr>
+                    <td>$\propto$</td> <td>\propto</td><td>$\bowtie$</td> <td>\bowtie</td><td>$\Join$</td> <td>\Join</td><td>$>$</td> <td> ></td><td>$<$</td> <td><</td><td>$=$</td> <td>=</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h4>
+                <a name="7"><a href="#0">连接句群字符</a></a>
+            </h4>
+            <ul>
+                <li>
+                    <h5>矩阵</h5>
+                    <ul>
+                        <li>
+                            <h6>矩阵环境</h6>
+                            $$
+                            \begin{gathered}
+                            \begin{matrix} 0 & 1 \\ 1 & 0 \end{matrix}
+                            \quad
+                            \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+                            \quad
+                            \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}
+                            \quad
+                            \begin{Bmatrix} 1 & 0 \\ 0 & -1 \end{Bmatrix}
+                            \quad
+                            \begin{vmatrix} a & b \\ c & d \end{vmatrix}
+                            \quad
+                            \begin{Vmatrix} i & 0 \\ 0 & -i \end{Vmatrix}
+                            \end{gathered}
+                            $$
+                        </li>
+                        <li>
+                            <h6>列表环境</h6>
+                            $$\begin{equation}       %开始数学环境
+                            \left(                 %左括号
+                            \begin{array}{ccc}   %该矩阵一共3列，每一列都居中放置
+                            a11 & a12 & a13\\  %第一行元素
+                            a21 & a22 & a23\\  %第二行元素
+                            \end{array}
+                            \right)                 %右括号
+                            \end{equation}$$
+                        </li>
+                        <li>
+                            <h6>含有省略号的矩阵</h6>
+                            $$A =
+                            \begin{pmatrix}
+                            a_{11} & a_{12} & \cdots & a_{1n}\\
+                            a_{21} & a_{22} & \cdots & a_{2n}\\
+                            \vdots & \vdots & \ddots & \vdots\\
+                            a_{n1} & a_{n2} & \cdots & a_{nn}\\
+                            \end{pmatrix}$$
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h5>方程组</h5>
+                    <ul>
+                        <li>
+                            <h6>cases方式</h6>
+                            $$
+                            \begin{cases}
+                            x+y+z&=0\\
+                            x+2y+3z&=0\\
+                            x+4y+5z&=0
+                            \end{cases}$$
+                        </li>
+                        <li>
+                            <h6>列表方式</h6>
+                            $$
+                            \begin{eqnarray}
+                            \left\{
+                            \begin{array}{lll}
+                            x^2 + y^2 &=& z^2 \\
+                            x^3 + y^3 &<& z^3
+                            \end{array}
+                            \right.
+                            \end{eqnarray}$$
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h4>
+                <a name="8"><a href="#0">基本运算符</a></a>
+            </h4>
+            <h6>
+            一目运算符
+            </h6>
+            <table border="1">
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <tr>
+                    <th>显示</th> <th>命令</th><th>显示</th> <th>命令</th>
+                </tr>
+                <tr>
+                    <td>$-1$</td> <td>-1</td><td>$\sqrt{n}$</td> <td>\</td>
+                </tr>
+                <tr>
+                    <td>$z^n$</td> <td>2^n</td><td>$|2|$</td> <td>|2|</td>
+                </tr>
+            </table>
+            <h6>
+                二目运算符
+            </h6>
+            <table border="1">
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <colgroup width="64px" align="center"></colgroup>
+                <tr>
+                    <th>显示</th> <th>命令</th><th>显示</th> <th>命令</th>
+                </tr>
+                <tr>
+                    <td>$+$</td> <td>+</td><td>$-$</td> <td>-</td>
+                </tr>
+                <tr>
+                    <td>$*$</td> <td>*</td><td>$/$</td> <td>/</td>
+                </tr>
+                <tr>
+                    <td>$7\%3$</td> <td>7%3</td><td>$log_nm$</td> <td>log_nm</td>
+                </tr>
+                <tr>
+                    <td>$ln(e)$</td> <td>ln(e)</td><td>$C_3^7$</td> <td>C_3^7</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h4><a name="9"><a href="#0">特殊字符</a> </a> </h4>
+            <table border="1">
+                <colgroup align="center" width="64px"></colgroup>
+                <tr>
+                    <th>显示</th><th>命令</th><th>显示</th><th>命令</th><th>显示</th><th>命令</th><th>显示</th><th>命令</th>
+                </tr>
+                <tr>
+                    <td>$\triangleleft$</td> <td>\triangleleft</td><td>$\triangleright$</td> <td>\triangleright</td><td>$\lozenge$</td> <td>\lozenge</td><td>$\blacklozenge$</td> <td>\blacklozenge</td>
+                </tr>
+                <tr>
+                    <td>$\triangle$</td> <td>\triangle</td><td>$\blacktriangle$</td> <td>\blacktriangle</td><td>$\triangledown$</td> <td>\triangledown</td><td>$\blacktriangledown$</td> <td>\blacktriangledown</td>
+                </tr>
+                <tr>
+                    <td>$\circ$</td> <td>\circ</td><td>$\bullet$</td> <td>\bullet</td><td>$\square$</td> <td>\square</td><td>$\blacksquare$</td> <td>\blacksquare</td>
+                </tr>
+                <tr>
+                    <td>$\diamond$</td> <td>\diamond</td><td>$\wr$</td> <td>\wr</td><td>$\ddagger$</td> <td>\ddagger</td><td>$\dagger$</td> <td>\dagger</td>
+                </tr>
+                <tr>
+                    <td>$\amalg$</td> <td>\amalg</td><td>$\dotplus$</td> <td>\dotplus</td><td>$\setminus$</td> <td>\setminus</td><td>$\bigcirc$</td> <td>\bigcirc</td>
+                </tr>
+                <tr>
+                    <td>$\div$</td> <td>\div</td><td>$\ast$</td> <td>\ast</td><td>$\times$</td> <td>\times</td><td>$\mp$</td> <td>\mp</td>
+                </tr>
+                <tr>
+                    <td>$\pm$</td> <td>\pm</td><td>$\bigtriangleup$</td> <td>\bigtriangleup</td><td>$\bigtriangledown$</td> <td>\bigtriangledown</td><td>$\star$</td> <td>\star</td>
+                </tr>
+                <tr>
+                    <td>$\bigstar$</td><td>\bigstar</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+    <h2>总结</h2>
+    <p>
+        为了编写这个信息量巨大的网页文件，我坐在电脑前盯了一天，途中还要解决一些奇奇怪怪的问题，已是憔悴不堪。
+    </p>
+    <p>
+        编写了一个latex2svg的linux的shell<a href="https://gitee.com/ding_ling_hui/Latex/blob/master/latex2svg.sh" >脚本</a>，很简单，但是还算好用。之后使用了网上的<a href="https://gitee.com/ding_ling_hui/Latex/blob/master/svg2png.py">一点代码</a> 改得面目全非了，不过核心代码没有变，所以使用的时候自己需要加以修改，需要安装cairo。
+    </p>
+</body>
+</html>
